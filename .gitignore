@@ -1,0 +1,6 @@
+node_modules
+dump.rdb
+.hubot_history
+
+.DS_Store*
+.idea
