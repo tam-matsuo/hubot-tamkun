@@ -1,0 +1,7 @@
+{
+  "name": "hubot-tamkun",
+  "repository": "https://github.com/tam-matsuo/hubot-tamkun",
+  "addons": [
+    "openredis"
+  ]
+}
