@@ -9,7 +9,7 @@ module.exports = (robot) ->
   #
   # reply設定
   #
-  sheets = process.env.TAMKUN_SHEET
+  sheets = process.env.TAMKUN_SHEET_REPLY ? null
   if ! sheets
     return
 

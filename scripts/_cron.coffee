@@ -9,7 +9,9 @@ random = require('hubot').Response::random
 
 module.exports = (robot) ->
 
-  sheets = 'https://spreadsheets.google.com/feeds/cells/1L2AsHmqP9RZRAXmbnUH3Q50-UDMGdC3nDDryAO2mNtg/od6/public/values?alt=json'
+  sheets = process.env.TAMKUN_SHEET_CRON ? null
+  if ! sheets
+    return
 
   robot.http(sheets).get() (err, res, body) ->
 

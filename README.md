@@ -4,5 +4,6 @@
 
 ## 環境変数
 
-- TAMKUN_SHEET: スプレッドシートURL
+- TAMKUN_SHEET_REPLY: リプライ用スプレッドシートURL
+- TAMKUN_SHEET_CRON: cron用スプレッドシートURL
 - TAMKUN_SECRET: POST用シークレットキー
